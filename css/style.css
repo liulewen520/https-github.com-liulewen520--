@@ -62,27 +62,27 @@ body{
 /*开始写表格*/
 /*表格外面设置了一个大的DIV 包括了表格和右边的简介*/
 .bk{
-  width:1200px;
+  width:1300px;
   height:550px;
-  border:5px solid red;
   margin:50px auto;
   position:relative;
 }/*给大的DIV设置相对定位*/
 /*设置一个小的DIV装表格 使用绝对定位*/
 .bg{
-  width:640px;
-  height:500px;
+  width:600px;
+  height:450px;
   border:5px solid #c9c9c9;
   position:absolute;
-  left:20px;
-  top:20px;
+  left:60px;
+  top:40px;
 }
 /*表格的样式修饰*/
 table{
-  width:600px;
-  height:400px;
+  width:550px;
+  height:350px;
   border-collapse:collapse;
   margin-left:20px;
+  text-align:center;
 }
 /*表格的标题有边距*/
 .bg h2{
@@ -92,4 +92,60 @@ table{
 .biaotou td{
   background-color:#99ffff;
   border:0;
+}
+/*简介 创建一个盒子设置绝对定位*/
+.jj{
+  width:550px;
+  height:500px;
+  position:absolute;
+  right:20px;
+  bottom:20px;
+}
+/*设置三个小盒子相对定位*/
+/* .jj l1{
+  position:relative;
+  width:500px;
+  height:300px;
+} */
+/*去掉UL的小点*/
+.jj ul{
+  list-style:none;
+}
+/*盒子里的内容绝对定位定好*/
+/*抽取相同样式*/
+.x{
+  position:absolute;
+  left:220px;  
+}
+.teacher1{
+  top:40px;
+}
+.teacher2{
+  top:190px;
+}
+.teacher3{
+  top:340px;
+}
+/*抽取相同样式*/
+.y{
+  width:195px;
+  height:117px;
+  position:absolute;
+  left:20px;
+}
+.jj .pic1{
+  top:40px;
+}
+.jj .pic2{
+  top:187px;
+}
+.jj .pic3{
+  top:337px;
+}
+/*设定特别的字体颜色*/
+.blue{
+  color:blue;
+}
+.orange{
+  color:orange;
 }
