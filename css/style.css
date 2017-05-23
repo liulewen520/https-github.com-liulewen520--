@@ -1,0 +1,95 @@
+body{
+  margin:0;
+  padding:0;
+}
+/*顶部样式*/
+.header{
+  width:100%;
+  height:400px;
+  background:url(../img/1.jpg);
+  background-position:center 0;
+  background-repeat:no-repeat;
+  background-color:#47C6BD;
+}
+/*导航栏样式*/
+/*导航栏整体一个大的DIV*/
+.dhl{
+  width:100%;
+  height:60px;
+}
+/*设定一个固定大小的DIV装5个标签，定位中间*/
+.dhl1{
+  width:1025px;
+  height:54px;
+  margin:0 auto;
+}
+/*标签设定属性*/
+.dhl ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.dhl1 li{
+  float:left;
+  width:200px;
+  height:54px;
+  text-align:center;
+  font:15px/54px "微软雅黑";
+  margin:0 5px 0 0;
+  border-radius:0 0 10px 10px;
+}
+/*插入五张背景图片*/
+.sy{
+  background:url("../img/2.png");
+}
+.jpkc{
+  background:url("../img/3.png");
+}
+.mstd{
+  background:url("../img/4.png");
+}
+.lxwm{
+  background:url("../img/5.png"); 
+}
+.gyne{
+  background:url("../img/6.png");
+}
+/*导航栏的a标签设置样式*/
+.dhl1 li a{
+  text-decoration:none;
+  color:white;
+}/*导航栏写完*/
+/*开始写表格*/
+/*表格外面设置了一个大的DIV 包括了表格和右边的简介*/
+.bk{
+  width:1200px;
+  height:550px;
+  border:5px solid red;
+  margin:50px auto;
+  position:relative;
+}/*给大的DIV设置相对定位*/
+/*设置一个小的DIV装表格 使用绝对定位*/
+.bg{
+  width:640px;
+  height:500px;
+  border:5px solid #c9c9c9;
+  position:absolute;
+  left:20px;
+  top:20px;
+}
+/*表格的样式修饰*/
+table{
+  width:600px;
+  height:400px;
+  border-collapse:collapse;
+  margin-left:20px;
+}
+/*表格的标题有边距*/
+.bg h2{
+  margin-left:20px;
+}
+/*表头清除边距，设定颜色*/
+.biaotou td{
+  background-color:#99ffff;
+  border:0;
+}
