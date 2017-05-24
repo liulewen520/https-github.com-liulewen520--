@@ -152,3 +152,147 @@ table{
 .orange{
   color:orange;
 }
+/*设定中间部分的样式了*/
+/*思路是设定一个大的DIV里面装了三部分，标题，图片，和内容*/
+/*先设定大的DIV的样式，使用相对定位*/
+.gsjs{
+  width:1200px;
+  height:400px;
+  margin:0 auto;
+  position:relative;
+}
+/*图片角度不好*/
+.pic1{
+  margin-top:40px;
+  margin-left:50px;
+}
+/*标题样式设定完成，虽然总感觉哪里怪怪的- -、*/
+.center1{
+  position:absolute;
+  width:240px;
+  height:100px;
+  left:50%;
+  margin-left:-120px;
+  top:0;
+  text-align:center;
+  color:#007FD5;
+}
+/*文字部分的样式*/
+.right1{
+  right:0;
+}
+/*标题*/
+.right1 h3{
+  color:#007FD5;
+}
+/*文字*/
+.right1 li{
+  color:#cc99ff;
+}
+.right1 a{
+  background-color:#007FD5;
+}
+/*a标签*/
+.b1 a{
+  display:block;
+  width:100px;
+  height:30px;
+  color:white;
+  text-decoration:none;
+  margin-top:20px;
+}
+.right2{
+  left:0;
+}
+/*标题*/
+.right2 h3{
+  color:#FFB43D;
+}
+/*文字*/
+.right2 li{
+  color:#FF0099;
+}
+.right2 a{
+  background-color:#FFB43D;
+}
+.center2{
+  position:absolute;
+  left:640px;
+  top:30px;
+}
+.a2{
+  background-color:#F4F4F4;
+}
+/*抽取公共样式*/
+.b1{
+  position:absolute;
+  bottom:0;
+  width:600px;
+  height:280px;
+}
+.b1 h3{
+  text-indent:1em;
+}
+.b1 li{
+  font:16px/200% "宋体";
+}
+.right3{
+  right:0;
+}
+.right3 h3{
+  color:#7F64B5;
+}
+.right3 li{
+  color:#7F64B5;
+}
+.right3 a{
+  background-color:#7F64B5;
+}
+/*完成中间部分，做好第一个后面复制就好*/
+/*底部*/
+.dibu{
+  width:100%;
+  height:50px;
+  background:#F4F4F4;
+}
+/*底部导航栏*/
+.dbdh{
+  width:400px;
+  height:50px;
+  margin:0 auto;
+}
+.dbdh ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+.dbdh li{
+  float:left;
+  width:99px;
+  height:50px;
+  text-align:center;
+}
+.dbdh a{
+  display:block;
+  width:100%;
+  height:100%;
+  background:#ffffcc;
+  text-decoration:none;
+  font:15px/50px "宋体";
+}
+.spec{
+  border-right:1px solid black; 
+}/*底部导航完成*/
+/*最后收尾*/
+.footer{
+  width:1000px;
+  height:80px;
+  margin:0 auto;
+}
+.footer p{
+  color:#bface6;
+  font:20px "微软雅黑";
+  text-align:center;
+  margin:0;
+  padding:0;
+}
