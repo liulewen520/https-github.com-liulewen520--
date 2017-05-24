@@ -56,6 +56,9 @@ body{
 }
 /*导航栏的a标签设置样式*/
 .dhl1 li a{
+  display:block;
+  width:100%;
+  height:100%;
   text-decoration:none;
   color:white;
 }/*导航栏写完*/
